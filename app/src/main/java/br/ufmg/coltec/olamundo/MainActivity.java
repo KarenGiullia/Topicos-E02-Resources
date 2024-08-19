@@ -17,12 +17,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        String bemVindo = getString(R.string.bemVindoStr);
+
         Button btnSurprise = findViewById(R.id.btn_surprise);
         btnSurprise.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 //                TODO(#1): Esse texto não deveria estar aqui
-                Toast toast = Toast.makeText(MainActivity.this, "Bem vindo, mestre", Toast.LENGTH_LONG);
+                Toast toast = Toast.makeText(MainActivity.this, bemVindo, Toast.LENGTH_LONG);
                 toast.setGravity(CENTER, 0, 0);
                 toast.show();
             }
