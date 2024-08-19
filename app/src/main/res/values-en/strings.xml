@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textViewStr">Hello World!</string>
+    <string name="buttonTextStr">Surprise!</string>
+    <string name="bemVindoStr">Welcome, master</string>
+</resources>
